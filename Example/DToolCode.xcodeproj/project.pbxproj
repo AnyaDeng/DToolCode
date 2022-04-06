@@ -63,10 +63,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA80A0A315CC241804A3CDBD /* Pods-DToolCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DToolCode_Tests.release.xcconfig"; path = "Target Support Files/Pods-DToolCode_Tests/Pods-DToolCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C00195E1EEE5A06EEF8189A5 /* Pods-DToolCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DToolCode_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DToolCode_Tests/Pods-DToolCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DAC7468C45E0BACDFEB237E5 /* DToolCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DToolCode.podspec; path = ../DToolCode.podspec; sourceTree = "<group>"; };
-		E939C835ACB6D42DA7859F92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DAC7468C45E0BACDFEB237E5 /* DToolCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DToolCode.podspec; path = ../DToolCode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E939C835ACB6D42DA7859F92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB1B0F72287D91DED5D530FB /* Pods-DToolCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DToolCode_Example.release.xcconfig"; path = "Target Support Files/Pods-DToolCode_Example/Pods-DToolCode_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EB965FD0038CCC32DEED40F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EB965FD0038CCC32DEED40F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				C00195E1EEE5A06EEF8189A5 /* Pods-DToolCode_Tests.debug.xcconfig */,
 				BA80A0A315CC241804A3CDBD /* Pods-DToolCode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

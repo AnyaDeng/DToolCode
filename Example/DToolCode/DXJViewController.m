@@ -7,7 +7,7 @@
 //
 
 #import "DXJViewController.h"
-
+#import "Tool.h"
 @interface DXJViewController ()
 
 @end
@@ -17,7 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    int num = [Tool addNumA:10 NumB:20];
+    NSLog(@"num = %d",num);
 }
 
 - (void)didReceiveMemoryWarning
